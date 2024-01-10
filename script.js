@@ -21,8 +21,11 @@ function reload(){
     window.location.reload()
 
 }
-function protein(){
-    var weight4=$("#weight1").val()
-    console.log(weight4)
-
+function calculateProtein(){
+    var weight1=document.getElementById("weight1").value
+    var protein=(weight1*1.5)
+    console.log(protein)
+    document.getElementById("heading1").innerHTML="Your need of protein is"
+    document.getElementById("protein-output").innerHTML=protein
+    
 }
