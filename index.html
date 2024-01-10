@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://code.jquery.com/jquery-2.2.4.js'></script>
+    <title>GO TO GYM</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="a">home</li>
+            <li class="a">plans</li>
+            <li class="a">benefits</li>
+            <li class="a">contact</li>
+        </ul>
+    </nav>
+    <div id="home" class="hero">
+        <div class="home-left">
+        <h1>GO TO GYM</h1>
+        <p>Train with</p>
+        <p>Confidence</p>
+        <p>At the Tunisia's favorite gym</p>
+        <div class="btn-hero  ">
+             <a href="http://127.0.0.1:5501/index.html" class="w">Sign in </a>
+             <a href="mailto:wassim.medimagh@gmail.com" target="_blank" class="b">contact</a>
+    
+            </div>
+    </div>
+</div>
+    <div class="second" >
+       <h2>CALCULATE YOUR BMI</h2>
+       <p>Calculate your body mass and discover your ideal weight :</p>
+       
+      <label for="weight">weight/ kg:</label>
+      <input id="weight" type="numbers"><br/>
+      <label for="height">height/ cm:</label>
+      <input id="height" type="numbers"><br/>
+      <button onclick="calculateBmi()">Calculate BMI</button>
+      <button onclick="reload()">Clear</button>
+      <h3 id="heading"></h3>
+      <p id="bmi-output"></p>
+      <p id="message"></p>
+    
+      <h4>Calculate your need of protein</h4>
+      <p>Need of protein :</p>
+      <label for="weight1">weight / kg</label>
+      <input id="weight1" type="numbers">
+      <button onclick="protein()">Calculate Protein</button>
+      <button onclick="reload()">Clear</button>
+      <h4 id="heading1"></h4>
+      <p id="protein-output"></p>
+      <p id="message"></p>
+
+    </div>
+    <script src="script.js"></script>
+    
+
+</body>
+  
+</html>

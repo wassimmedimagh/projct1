@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: #ececec; 
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    background: #212121;
+}
+.a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    
+
+}
+nav li{
+    margin: 15px;
+}
+.hero{
+    height: 700px;
+    
+    display: flex;
+    overflow: hidden;
+    background-image: url("https://images.unsplash.com/photo-1605296867304-46d5465a13f1?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3ltJTIwd29ya291dHxlbnwwfHwwfHx8MA%3D%3D");
+}
+.home-left{
+    position: relative;
+    width: 100%;
+  
+    height: 100vh;
+    
+}
+h1{
+    color: #f1f1f1;
+    font-size: 90px;
+    padding-top:150px;
+    padding-bottom: 20px;
+    margin-left: 8vw ;
+    
+}
+.hero p{
+    color: #f1f1f1;
+    font-size: 30px;
+    width: 600px;
+    margin-left: 20px;
+    
+}
+.btn-hero{
+    display: flex;
+}
+.btn-home{
+    font-size: 18px;
+    text-align: center;
+    color: #f1f1f1;
+    padding:15px;
+    background: #ff6129;
+    text-decoration: none;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.btn-home:hover{
+    color: #212121;
+    background: #ffb13d;
+}
+.b1{
+    margin-left: 8vw;
+}
+.b2{
+    margin-left: 10px;
+}
+.second{
+    width:100%;
+    height: 100vh;
+    position: relative;
+    color:"black";
+    background-image: url(https://www.california-gym.com/tn/wp-content/uploads/2019/09/imc2.png);
+}
+h2{
+    font-size: 90px;
+    padding-top:150px;
+    padding-bottom: 20px;
+    margin-left: 8vw ;
+}
+.b{
+    font-size: 18px;
+   text-align: center;
+   color: #f1f1f1;
+   padding: 15px;
+   background: #ff6129;
+   text-decoration: none;
+   margin-top: 40px;
+   cursor: pointer;
+   margin-left: 20px;
+   }
+   .w{
+    font-size: 18px;
+    text-align: center;
+    color: #f1f1f1;
+    padding: 15px;
+    background: #ff6129;
+    text-decoration: none;
+    margin-top: 40px;
+    cursor: pointer;
+    margin-left: 15px;
+
+   }
+p{
+    margin-left: 80px;
+    font-size:27px ;
+    color: black;
+}
