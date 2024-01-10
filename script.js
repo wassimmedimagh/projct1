@@ -3,7 +3,7 @@ function calculateBmi(){
     var height= document.getElementById("height").value
     var bmi= (weight / (height**2)) 
     document.getElementById("heading").innerHTML="Your bmi is :"
-    document.getElementById("bmi-output").innerHTML=bmi.toFixed(2)
+    document.getElementById("bmi-output").innerHTML=bmi.toFixed(2)+"kg/m²"
 
     if (bmi<=24.9){
     document.getElementById("message").innerHTML="You are underweight"}
@@ -26,6 +26,6 @@ function calculateProtein(){
     var protein=(weight1*1.5)
     console.log(protein)
     document.getElementById("heading1").innerHTML="Your need of protein is"
-    document.getElementById("protein-output").innerHTML=protein
+    document.getElementById("protein-output").innerHTML=protein+"g"
     
 }
